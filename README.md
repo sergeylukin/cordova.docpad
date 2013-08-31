@@ -11,6 +11,7 @@ The application is based on the [Apache Cordova Hello World][cordova-app] app.
 ### Run Application in browser emulator
 
   - `git checkout source` - switch to source branch
+  - `npm install` - install dependencies
   - Compile project with `docpad generate`
   - Start server with `docpad server` and open `http://localhost:9778/www` in
     browser
@@ -21,6 +22,7 @@ The application is based on the [Apache Cordova Hello World][cordova-app] app.
 ### Run Application in SDK Emulator/Real Device
 
 - `git checkout source` - switch to source branch
+- `npm install` - install dependencies
 - `npm install -g cordova` - install Cordova CLI
 - `docpad generate` - compile project to prepare for cordova/phonegap later
   processing
@@ -38,6 +40,7 @@ The application is based on the [Apache Cordova Hello World][cordova-app] app.
 via Web:
 
 - `git checkout source` - switch to source branch
+- `npm install` - install dependencies
 - `./deploy` to deploy your phonegap-ready app files as well as `source` branch
 - create an app on [phonegap web ui](http://build.phonegap.com) by pointing it
   to your public master branch on repository
@@ -45,6 +48,7 @@ via Web:
 via CLI:
 
 - `git checkout source` - switch to source branch
+- `npm install` - install dependencies
 - `npm install -g phonegap` - install Phonegap CLI
 - `rm -fr ./out` - remove previously generated files (the reason is that you
   may have created platform-specific files there previously and since phonegap
@@ -59,6 +63,7 @@ via CLI:
 ## Developing
 
 - `git checkout source` - switch to source branch
+- `npm install` - install dependencies
 - `docpad run` - start webserver with project files watch
 - Open "http://localhost:9778/www" in browser and enable
   [Ripple](http://ripple.incubator.apache.org/) extension (find and install an
